@@ -60,7 +60,7 @@
     <div class="max-w-md w-full card-bg bg-slate-900/90 backdrop-blur-md border border-slate-800 rounded-2xl p-6 shadow-2xl my-auto relative z-10 transition-colors duration-300">
         <div class="text-center mb-6">
             <h1 class="text-2xl font-black text-rose-500">LOVE DIARIES</h1>
-            <p class="text-sm text-slate-400 mt-1">Book your loyalty test slot (Ksh 100 fee)</p>
+            <p class="text-sm text-slate-400 mt-1">Book your loyalty test slot (Ksh 250 fee)</p>
         </div>
 
         <form id="bookingForm" class="space-y-4">
@@ -90,7 +90,7 @@
             </div>
 
             <button type="submit" class="w-full bg-rose-600 hover:bg-rose-500 text-white font-bold py-3 rounded-xl transition duration-200 shadow-lg shadow-rose-900/40">
-                Pay Ksh 100 & Get Booking Number
+                Pay Ksh 250 & Get Booking Number
             </button>
         </form>
     </div>
@@ -145,7 +145,7 @@
             let handler = PaystackPop.setup({
                 key: 'pk_test_27ca215584161bd17591762b95f20fdc7cac9d13',
                 email: dummyEmail,
-                amount: 10000, // 10000 subunits = Ksh 100
+                amount: 25000, // 25000 subunits = Ksh 250
                 currency: 'KES',
                 channels: ['mobile_money'],
                 metadata: {
